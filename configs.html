@@ -1,0 +1,7 @@
+<h2>Available Configs</h2>
+<ul>
+    {% for file in files %}
+        <li><a href="/download/{{ file }}">{{ file }}</a></li>
+    {% endfor %}
+</ul>
+<a href="/">Back to Home</a>
